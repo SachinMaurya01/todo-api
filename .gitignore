@@ -1,0 +1,32 @@
+# Go build artifacts
+/bin/
+/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+# Coverage reports
+coverage.out
+cover.out
+node_modules/
+**/node_modules/
+*/node_modules
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Air / local dev tooling
+build-errors.log
+
+# Vendored dependencies
+/vendor/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
